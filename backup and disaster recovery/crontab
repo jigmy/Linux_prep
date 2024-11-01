@@ -1,0 +1,5 @@
+# Open crontab
+crontab -e
+
+# Add this line to run backup daily at 1 AM
+0 1 * * * /path/to/simple_backup.sh
