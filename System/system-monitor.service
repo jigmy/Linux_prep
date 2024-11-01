@@ -1,0 +1,10 @@
+[Unit]
+Description=Simple System Monitor
+After=network.target
+
+[Service]
+ExecStart=/path/to/simple_monitor.sh
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
